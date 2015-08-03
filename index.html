@@ -7,29 +7,31 @@
     <link type="text/css" rel="stylesheet" href="/css/index.css"/>
 </head>
 <body>
-<div class="header">
-    <div class="header-log">
+<div class="header clearfix">
+    <div class="header-log fl">
         JSON Class
     </div>
-    <div class="header-nav">
-        <ul>
-            <li>Objective-C</li>
-            <li>JAVA</li>
-            <li>C#</li>
-            <li>Go</li>
-        </ul>
-    </div>
+    <ul class="header-nav fl">
+        <li class="header-nav-item header-nav-item-active"><a href="#">Objective-C</a></li>
+        <li class="header-nav-item"><a href="#">JAVA</a></li>
+        <li class="header-nav-item"><a href="#">C#</a></li>
+        <li class="header-nav-item"><a href="#">Go</a></li>
+    </ul>
 </div>
-<div class="container">
-    <div class="container-idl">
-        <textarea placeholder="IDL goes here"></textarea>
+<div class="container clearfix">
+    <div class="container-idl fl">
+        <div class="container-wrapper">
+            <textarea class="textarea textarea-idl" placeholder="IDL goes here"></textarea>
+        </div>
     </div>
-    <div class="container-class">
-        <textarea placeholder="Generated class"></textarea>
+    <div class="container-class fl">
+        <div class="container-wrapper">
+            <textarea class="textarea textarea-class" placeholder="Generated class"></textarea>
+        </div>
     </div>
 </div>
 <div class="footer">
-
+    JSON Class &copy; All rights reserved
 </div>
 </body>
 </html>
