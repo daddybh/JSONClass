@@ -1,10 +1,11 @@
 body {
     font: 12px/1.8 'Microsoft YaHei',tahoma,arial;
+    height:100%;
 }
 
 .header {
     position: absolute;
-    top: 0px;
+    top: 0;
     background: #457abb;
     color: #fff;
     width:100%;
@@ -44,9 +45,8 @@ body {
 }
 
 .container-wrapper{
-    margin: 20px 10px 0 12px;
-    padding-right: 12px;
-    height: calc(100% - 20px);
+    padding: 5px;
+    height: 100%;
 }
 .container-idl {
     width:50%;
@@ -59,12 +59,13 @@ body {
 }
 
 .textarea {
-    border: 1px solid #afafaf;
     color: #282828;
     font-size:14px;
-    padding: 5px;
+    border: 1px solid #afafaf;
+    box-sizing: border-box;
+    padding: 4px;
     width:100%;
-    height: calc(100% - 12px);
+    height: 100%;
 }
 
 .footer {
